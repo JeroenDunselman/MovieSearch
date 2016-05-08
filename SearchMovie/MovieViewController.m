@@ -7,7 +7,6 @@
 //
 
 #import "MovieViewController.h"
-#import "MovieDetailsTVC.h"
 #import "MoviePosterVC.h"
 @interface MovieViewController ()
 

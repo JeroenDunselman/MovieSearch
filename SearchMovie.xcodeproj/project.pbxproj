@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		577F4238F73D5D2757F05609 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAF6D99AC6323FC9C5823AF /* libPods.a */; };
-		A90DF0A51CDFB3B7003EDAC2 /* LaunchScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A90DF0A41CDFB3B7003EDAC2 /* LaunchScreen.m */; };
-		A90DF0A91CDFB43B003EDAC2 /* Poq LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90DF0A61CDFB43B003EDAC2 /* Poq LaunchScreen.storyboard */; };
+		A90DF0A91CDFB43B003EDAC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90DF0A61CDFB43B003EDAC2 /* LaunchScreen.storyboard */; };
 		A91090481CD9CE6600652952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A91090471CD9CE6600652952 /* main.m */; };
 		A910904B1CD9CE6600652952 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A910904A1CD9CE6600652952 /* AppDelegate.m */; };
 		A910904E1CD9CE6600652952 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A910904D1CD9CE6600652952 /* ViewController.m */; };
@@ -19,11 +18,8 @@
 		A910906C1CD9CE6600652952 /* SearchMovieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A910906B1CD9CE6600652952 /* SearchMovieUITests.m */; };
 		A9FF848A1CD9D7160003F3B8 /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FF84881CD9D7160003F3B8 /* MovieTableViewCell.m */; };
 		A9FF848B1CD9D7160003F3B8 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FF84891CD9D7160003F3B8 /* MovieTableViewCell.xib */; };
-		A9FF848E1CD9D8D00003F3B8 /* MovieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FF848D1CD9D8D00003F3B8 /* MovieTableViewController.m */; };
-		A9FF84911CD9F8220003F3B8 /* MovieSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FF84901CD9F8220003F3B8 /* MovieSearcher.m */; };
 		A9FF84971CDA6B300003F3B8 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FF84951CDA6B300003F3B8 /* MovieViewController.m */; };
 		A9FF84981CDA6B300003F3B8 /* MovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FF84961CDA6B300003F3B8 /* MovieViewController.xib */; };
-		A9FF85231CDC80750003F3B8 /* MovieDetailsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FF85221CDC80750003F3B8 /* MovieDetailsTVC.m */; };
 		A9FF852C1CDCD1600003F3B8 /* MoviePosterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FF852A1CDCD1600003F3B8 /* MoviePosterVC.m */; };
 		A9FF852D1CDCD1600003F3B8 /* MoviePosterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FF852B1CDCD1600003F3B8 /* MoviePosterVC.xib */; };
 		A9FF852F1CDDDF020003F3B8 /* d-clapper-board-film-roll-white-background-42091038.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9FF852E1CDDDF020003F3B8 /* d-clapper-board-film-roll-white-background-42091038.jpg */; };
@@ -49,9 +45,7 @@
 
 /* Begin PBXFileReference section */
 		902DE09253C10311BEC7BDB4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		A90DF0A31CDFB3B7003EDAC2 /* LaunchScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchScreen.h; sourceTree = "<group>"; };
-		A90DF0A41CDFB3B7003EDAC2 /* LaunchScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchScreen.m; sourceTree = "<group>"; };
-		A90DF0A61CDFB43B003EDAC2 /* Poq LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Poq LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		A90DF0A61CDFB43B003EDAC2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A91090431CD9CE6600652952 /* SearchMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91090471CD9CE6600652952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A91090491CD9CE6600652952 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,15 +64,9 @@
 		A9FF84871CD9D7160003F3B8 /* MovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableViewCell.h; sourceTree = "<group>"; };
 		A9FF84881CD9D7160003F3B8 /* MovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewCell.m; sourceTree = "<group>"; };
 		A9FF84891CD9D7160003F3B8 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
-		A9FF848C1CD9D8D00003F3B8 /* MovieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableViewController.h; sourceTree = "<group>"; };
-		A9FF848D1CD9D8D00003F3B8 /* MovieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewController.m; sourceTree = "<group>"; };
-		A9FF848F1CD9F8220003F3B8 /* MovieSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieSearcher.h; sourceTree = "<group>"; };
-		A9FF84901CD9F8220003F3B8 /* MovieSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieSearcher.m; sourceTree = "<group>"; };
 		A9FF84941CDA6B300003F3B8 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
 		A9FF84951CDA6B300003F3B8 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
 		A9FF84961CDA6B300003F3B8 /* MovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieViewController.xib; sourceTree = "<group>"; };
-		A9FF85211CDC80750003F3B8 /* MovieDetailsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailsTVC.h; sourceTree = "<group>"; };
-		A9FF85221CDC80750003F3B8 /* MovieDetailsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailsTVC.m; sourceTree = "<group>"; };
 		A9FF85291CDCD1600003F3B8 /* MoviePosterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePosterVC.h; sourceTree = "<group>"; };
 		A9FF852A1CDCD1600003F3B8 /* MoviePosterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePosterVC.m; sourceTree = "<group>"; };
 		A9FF852B1CDCD1600003F3B8 /* MoviePosterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoviePosterVC.xib; sourceTree = "<group>"; };
@@ -134,7 +122,7 @@
 		A910903A1CD9CE6600652952 = {
 			isa = PBXGroup;
 			children = (
-				A90DF0A61CDFB43B003EDAC2 /* Poq LaunchScreen.storyboard */,
+				A90DF0A61CDFB43B003EDAC2 /* LaunchScreen.storyboard */,
 				A91090451CD9CE6600652952 /* SearchMovie */,
 				A910905F1CD9CE6600652952 /* SearchMovieTests */,
 				A910906A1CD9CE6600652952 /* SearchMovieUITests */,
@@ -162,26 +150,18 @@
 				A910904C1CD9CE6600652952 /* ViewController.h */,
 				A910904D1CD9CE6600652952 /* ViewController.m */,
 				A910904F1CD9CE6600652952 /* Main.storyboard */,
-				A9FF84901CD9F8220003F3B8 /* MovieSearcher.m */,
 				A9FF84871CD9D7160003F3B8 /* MovieTableViewCell.h */,
 				A9FF84881CD9D7160003F3B8 /* MovieTableViewCell.m */,
 				A9FF84891CD9D7160003F3B8 /* MovieTableViewCell.xib */,
 				A91090521CD9CE6600652952 /* Assets.xcassets */,
 				A91090571CD9CE6600652952 /* Info.plist */,
-				A90DF0A31CDFB3B7003EDAC2 /* LaunchScreen.h */,
-				A90DF0A41CDFB3B7003EDAC2 /* LaunchScreen.m */,
 				A9FF84941CDA6B300003F3B8 /* MovieViewController.h */,
 				A9FF84951CDA6B300003F3B8 /* MovieViewController.m */,
 				A9FF84961CDA6B300003F3B8 /* MovieViewController.xib */,
-				A9FF848C1CD9D8D00003F3B8 /* MovieTableViewController.h */,
-				A9FF848D1CD9D8D00003F3B8 /* MovieTableViewController.m */,
-				A9FF848F1CD9F8220003F3B8 /* MovieSearcher.h */,
 				A91090461CD9CE6600652952 /* Supporting Files */,
 				A9FF85291CDCD1600003F3B8 /* MoviePosterVC.h */,
 				A9FF852A1CDCD1600003F3B8 /* MoviePosterVC.m */,
 				A9FF852B1CDCD1600003F3B8 /* MoviePosterVC.xib */,
-				A9FF85211CDC80750003F3B8 /* MovieDetailsTVC.h */,
-				A9FF85221CDC80750003F3B8 /* MovieDetailsTVC.m */,
 				A9FF852E1CDDDF020003F3B8 /* d-clapper-board-film-roll-white-background-42091038.jpg */,
 				A9FF85301CDDEB200003F3B8 /* reel.jpg */,
 			);
@@ -325,7 +305,7 @@
 				A9FF85311CDDEB200003F3B8 /* reel.jpg in Resources */,
 				A91090531CD9CE6600652952 /* Assets.xcassets in Resources */,
 				A9FF84981CDA6B300003F3B8 /* MovieViewController.xib in Resources */,
-				A90DF0A91CDFB43B003EDAC2 /* Poq LaunchScreen.storyboard in Resources */,
+				A90DF0A91CDFB43B003EDAC2 /* LaunchScreen.storyboard in Resources */,
 				A9FF848B1CD9D7160003F3B8 /* MovieTableViewCell.xib in Resources */,
 				A91090511CD9CE6600652952 /* Main.storyboard in Resources */,
 			);
@@ -402,13 +382,9 @@
 			files = (
 				A910904E1CD9CE6600652952 /* ViewController.m in Sources */,
 				A910904B1CD9CE6600652952 /* AppDelegate.m in Sources */,
-				A9FF848E1CD9D8D00003F3B8 /* MovieTableViewController.m in Sources */,
 				A9FF84971CDA6B300003F3B8 /* MovieViewController.m in Sources */,
 				A9FF848A1CD9D7160003F3B8 /* MovieTableViewCell.m in Sources */,
 				A91090481CD9CE6600652952 /* main.m in Sources */,
-				A90DF0A51CDFB3B7003EDAC2 /* LaunchScreen.m in Sources */,
-				A9FF84911CD9F8220003F3B8 /* MovieSearcher.m in Sources */,
-				A9FF85231CDC80750003F3B8 /* MovieDetailsTVC.m in Sources */,
 				A9FF852C1CDCD1600003F3B8 /* MoviePosterVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

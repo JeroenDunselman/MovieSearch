@@ -25,8 +25,7 @@ NSMutableDictionary *posterLocations;
     
     [self.movieTableView setDelegate:self];
     [self.movieTableView setDataSource:self];
-//    [self.movieTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"MovieCell"];
-        [self.movieTableView registerNib:[UINib nibWithNibName:@"MovieTableViewCell" bundle:nil] forCellReuseIdentifier:@"MovieCell"];
+    [self.movieTableView registerNib:[UINib nibWithNibName:@"MovieTableViewCell" bundle:nil] forCellReuseIdentifier:@"MovieCell"];
     
     [self.movieTableView setHidden:true];
     [self.theSearchBar setPrompt:@"Search Movie Title"];
@@ -191,24 +190,6 @@ NSMutableDictionary *posterLocations;
     }];
     [dataTask resume];
 }
-
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    MovieTableViewCell *myCell = [tableView dequeueReusableCellWithIdentifier:@"MovieCell" ];
-//    NSDictionary *theMovie = [self.movieDataFound objectAtIndex:indexPath.row];
-//    [myCell.textLabel setText : [NSString stringWithFormat:@"%@ (%@)",
-//                                [theMovie objectForKey:@"Title" ],
-//                                [theMovie objectForKey:@"Year" ]]];
-//    
-//    if ([[posterLocations objectForKey:[theMovie objectForKey:@"imdbID" ]
-//          ] isKindOfClass:[UIImage class]]
-//        ) {
-//        [myCell.imageView setImage:[posterLocations objectForKey:[theMovie objectForKey:@"imdbID" ]]];
-//    } else {
-//        [myCell.imageView setImage:nil];
-//    }
-//    return myCell;
-//}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
